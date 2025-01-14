@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+    background-color: white;
+    margin: auto;
+    width: 90vw;
+    height: 90vh;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorMessage {
+    background-color: #D94F4F;
+    padding: 2px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.input-divs {
+    margin: auto;
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    border:  3px solid #142035;
+    border-radius: 10px;
+}
+#form {
+    border-radius: 40px;
+    background-color: #4C6085;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    border: 5px solid #142035;
+    padding: 15px;
+   
+    gap: 20px;
+}
+
+label {
+    font-weight: 600;
+}
+
+
+#button-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#login {
+    background-color: #142035;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #142035;
+    font-weight: 800;
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+}
+
+#login:hover {
+    transition: 300ms;
+    color: #142035;
+    background-color: white;
+}
+
+
+input ,select{
+    border-radius: 4px;
+    height: 40%;
+    width: 50%;
+    background-color: rgb(144, 161, 192);
+    color: white;
+    border: 2px solid rgb(144, 161, 192);
+}
+
+
+.styling-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+
+input:valid,select:valid {
+    border: 3px solid green;
+}
+
+input:invalid,
+select:invalid {
+    border: 3px solid red;
+}
+
+
+.password-invalid-not-entered-yet { 
+    border: 2px solid red;
+    cursor:not-allowed;
+}
