@@ -27,6 +27,7 @@ body {
 }
 
 .input-divs {
+    
     margin: auto;
     width: 90%;
     height: 45px;
@@ -82,6 +83,7 @@ input ,select{
     border-radius: 4px;
     height: 40%;
     width: 50%;
+    padding: 5px;
     background-color: rgb(144, 161, 192);
     color: white;
     border: 2px solid rgb(144, 161, 192);
